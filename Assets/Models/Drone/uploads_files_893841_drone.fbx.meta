@@ -1,0 +1,775 @@
+fileFormatVersion: 2
+guid: 79e3148cd5a8e1d4bb852cb23b38f9f2
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabels
+    second: {fileID: 2100000, guid: 839015f48e32a8646954cec709b0e54a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabels2
+    second: {fileID: 2100000, guid: 95aa5440b55ef944a818feb23ba42e5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: diafragma
+    second: {fileID: 2100000, guid: c3135e5b2b191274080b03b9b5a94a9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f1
+    second: {fileID: 2100000, guid: 15df7ae7f77cbb64e8f7a349e118953c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f2
+    second: {fileID: 2100000, guid: a042b0c1a07bc3344b32f5405dc7904e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katushki
+    second: {fileID: 2100000, guid: b5e36175102dd8e458a4feb995ecd77e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korpus
+    second: {fileID: 2100000, guid: e34b62aa50f5bab40a54234c96e28ce6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korpus2
+    second: {fileID: 2100000, guid: c7f6010d915237c44b69167002add327, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korpus3
+    second: {fileID: 2100000, guid: 484355ec269fa0746be6d3d20053e68c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korpus4
+    second: {fileID: 2100000, guid: a176c6e47081ff84e9ace1bcb61bd857, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linza1
+    second: {fileID: 2100000, guid: ba7ae864b34773044907d0d111654ca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linza2
+    second: {fileID: 2100000, guid: 67621b41fa377ce44af800a2a4d61416, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linza3
+    second: {fileID: 2100000, guid: e901fbbf2e37e1e47a7a0283726690b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: motor1
+    second: {fileID: 2100000, guid: a4aa9640f08d49345ba2e72f0d86877d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: motor2
+    second: {fileID: 2100000, guid: fd600ca8b7115f647809f34b97b6711a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nadpis
+    second: {fileID: 2100000, guid: 34c4245b33f400047a1186acd39959a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: photo2
+    second: {fileID: 2100000, guid: 5a6e7241738d3f64c87ff80b54c1cdee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: photo3
+    second: {fileID: 2100000, guid: 84d21d3d7f14fa3458d8928f4772c029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: propeller
+    second: {fileID: 2100000, guid: d5be593b85234e44a852a0ba2bf39cc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: provoda
+    second: {fileID: 2100000, guid: b04fb6445d392784f870e04b2047b215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rezina
+    second: {fileID: 2100000, guid: 8786bbd1050d138448da1837a7b6bd45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stolbiki
+    second: {fileID: 2100000, guid: db401361dd885c6418458fce605fe726, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vintiki
+    second: {fileID: 2100000, guid: 5253346a66c6e714a9627f4c3d56f8c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtulka
+    second: {fileID: 2100000, guid: 5a77a72a5d7ee5848adf2d09d6cd8ee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: z
+    second: {fileID: 2100000, guid: 619b449df305cda4797e704ef2a9e470, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: z_propelleri
+    second: {fileID: 2100000, guid: 1ce9c7b5dcb1f9f4ebcaf965fc116a72, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_dergatel_mednoi_zatichki_Diffuse
+    second: {fileID: 2800000, guid: 15d28038c255de04f84e2164b9010141, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_dergatel_mednoi_zatichki_Height
+    second: {fileID: 2800000, guid: dfe45690558d3a84dbba1faa67343245, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_dergatel_mednoi_zatichki_Normal
+    second: {fileID: 2800000, guid: 832ca84828f69ed41b3e9b07e48e6399, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_dergatel_mednoi_zatichki_Specular
+    second: {fileID: 2800000, guid: 32bab9d6054dafc4cac17ff51ae0e9e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_dergatel_photo_Diffuse
+    second: {fileID: 2800000, guid: fb6e30d68838c0641b5015f0d4b11245, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_dergatel_photo_Height
+    second: {fileID: 2800000, guid: b7c5fd0c651327748838117d2ced900f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_dergatel_photo_Normal
+    second: {fileID: 2800000, guid: 94596e9db15c1f14e8af4859c516c66e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_dergatel_photo_Specular
+    second: {fileID: 2800000, guid: b96bab2cbdf07e64bacd2f910647a926, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_dergatel_provodov_Diffuse
+    second: {fileID: 2800000, guid: 381f434234ad8a2468291d817c4a7131, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_dergatel_provodov_Height
+    second: {fileID: 2800000, guid: d8274fd48d2ad9d4c82360176d829cf0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_dergatel_provodov_Normal
+    second: {fileID: 2800000, guid: d396c0b2e867f534d8c0e8f928e1b747, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_dergatel_provodov_Specular
+    second: {fileID: 2800000, guid: 0370701963a02734286014df26235b77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_diafragma_photo_Diffuse
+    second: {fileID: 2800000, guid: 8479cc8e02e62b342bcefe81e4eb3677, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_diafragma_photo_Height
+    second: {fileID: 2800000, guid: 41e683289c12ba44bbddebff405278ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_diafragma_photo_Normal
+    second: {fileID: 2800000, guid: 285fc6d80b386a54cb8f1cc4605f47e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_diafragma_photo_Specular
+    second: {fileID: 2800000, guid: a43b318cdc4b0d446a3900faa114bf0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_fonari_Diffuse
+    second: {fileID: 2800000, guid: 2957b51c588d56943a78d4e57b36913c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_fonari_Height
+    second: {fileID: 2800000, guid: 251926a81b8219140b06f6a852ca7bac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_fonari_Normal
+    second: {fileID: 2800000, guid: 480e27d17453e194eb50e3d418c69f26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_fonari_Specular
+    second: {fileID: 2800000, guid: 0c03d607c6678f74e942274fad708529, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_katushka_Diffuse
+    second: {fileID: 2800000, guid: ed43fb64c9b9270479151b9796329704, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_katushka_Height
+    second: {fileID: 2800000, guid: 70d64b74b7031d24897dde6495937af4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_katushka_Normal
+    second: {fileID: 2800000, guid: 81d90397dea1658489d1413a571f1f24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_katushka_Specular
+    second: {fileID: 2800000, guid: 8a75459441349e94ba845e379ffb168b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_korpus_Diffuse
+    second: {fileID: 2800000, guid: cd82f0503dd0dc14787b7e91ec158551, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_korpus_Height
+    second: {fileID: 2800000, guid: 05173859fb2ed2b46a94a4efd2d18772, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_korpus_Normal
+    second: {fileID: 2800000, guid: 89e17759f42910743b545f0d8650d049, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_korpus_Specular
+    second: {fileID: 2800000, guid: 2c5456171740261428c17310a90af0bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_korpus_fonarei_Diffuse
+    second: {fileID: 2800000, guid: 3c506ee78dc2b6f42877b7305e226336, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_korpus_fonarei_Height
+    second: {fileID: 2800000, guid: 43d1e81df97e084448bf17397addae3f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_korpus_fonarei_Normal
+    second: {fileID: 2800000, guid: e9e079c4a22ba3c48bcff5b33efcbf03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_korpus_fonarei_Specular
+    second: {fileID: 2800000, guid: 7374e25d47f05ef4e9f9673b1fc6d849, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_korpus_photo_Diffuse
+    second: {fileID: 2800000, guid: ec2139001fe72a343bfb127e7b4199af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_korpus_photo_Height
+    second: {fileID: 2800000, guid: 88554c52a1e014c4cac1ec14e074355b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_korpus_photo_Normal
+    second: {fileID: 2800000, guid: 2be724f6ee7a7024ba51b956a7930237, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_korpus_photo_Specular
+    second: {fileID: 2800000, guid: de4daf3978a925b429c1f4a58a5151ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_linza2_photo_Diffuse
+    second: {fileID: 2800000, guid: 6b7880aa31cdd9a42a01fb970db06a79, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_linza2_photo_Height
+    second: {fileID: 2800000, guid: c23697cb86dce3a4da0834e80ea45032, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_linza2_photo_Normal
+    second: {fileID: 2800000, guid: 640b2f931ebc98f49a992433d3094f62, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_linza2_photo_Specular
+    second: {fileID: 2800000, guid: 75f46c555e9b99347a1798e903b0b685, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_linza3_photo_Diffuse
+    second: {fileID: 2800000, guid: 2fe70de6b23496745b6f7bfee18c3bbb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_linza3_photo_Height
+    second: {fileID: 2800000, guid: fd7241971116e2943a8a89b3aa6fbbee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_linza3_photo_Normal
+    second: {fileID: 2800000, guid: 232a37d7892eb284aba540ae721fc5da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_linza3_photo_Specular
+    second: {fileID: 2800000, guid: a1aa302a7cfe4c3498fb127870e13c41, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_linza_photo_Diffuse
+    second: {fileID: 2800000, guid: c29993e156dec26438649891d60ee170, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_linza_photo_Height
+    second: {fileID: 2800000, guid: 7aa3a0c9228b3b749abb4f2760204729, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_linza_photo_Normal
+    second: {fileID: 2800000, guid: abe5c3afdabfa254992fb1c94452c13f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_linza_photo_Specular
+    second: {fileID: 2800000, guid: a02fc100fdab4654a863e0cd9e44258c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_mednaya_zatichka_Diffuse
+    second: {fileID: 2800000, guid: a15cf594541be014ba010aa7dc8de23c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_mednaya_zatichka_Height
+    second: {fileID: 2800000, guid: acd15f58d0db22c4581bdee025f8a3f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_mednaya_zatichka_Normal
+    second: {fileID: 2800000, guid: 2b9dbd3ca0c1d48469032ebc94175196, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_mednaya_zatichka_Specular
+    second: {fileID: 2800000, guid: 18e20ed3bdca8bf4389d0690f138c167, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_mini_radiator_Diffuse
+    second: {fileID: 2800000, guid: 3d1d956810133a946b1dc59d12e561cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_mini_radiator_Height
+    second: {fileID: 2800000, guid: 99ce1dd949b5d0842b51ca06713aefc6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_mini_radiator_Normal
+    second: {fileID: 2800000, guid: 04f1e83e743dd3b41b506c19eca0628f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_mini_radiator_Specular
+    second: {fileID: 2800000, guid: e1b4793a931100f4bbd18705e44da614, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_nadpis_Diffuse
+    second: {fileID: 2800000, guid: 80d66a6b52ce4344ea1660da3e35e67e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_nadpis_Height
+    second: {fileID: 2800000, guid: f06f51471d18ee646b7fcdd1a540d496, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_nadpis_Normal
+    second: {fileID: 2800000, guid: fb923ef41c096054eb8578d3b3a7511b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_nadpis_Specular
+    second: {fileID: 2800000, guid: 6a3c89befe61e464cba0a2e70528cf57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_nigniy_korpus_motora_Diffuse
+    second: {fileID: 2800000, guid: 956486fe55968ea4fb85eeb992fe5cff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_nigniy_korpus_motora_Height
+    second: {fileID: 2800000, guid: b9238e6b5a65f064c883c4fea5af7a02, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_nigniy_korpus_motora_Normal
+    second: {fileID: 2800000, guid: 1071afb0411cfef49b792c901ba3b82a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_nigniy_korpus_motora_Specular
+    second: {fileID: 2800000, guid: b47541d42bebe5a4597a8def404a7248, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_otverstie_Diffuse
+    second: {fileID: 2800000, guid: 66dd06497b273eb439536aec47c28e3c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_otverstie_Height
+    second: {fileID: 2800000, guid: 2710f1e080737cc419ad6478bae69fea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_otverstie_Normal
+    second: {fileID: 2800000, guid: 282f038a85d934b458722366c0a96991, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_otverstie_Specular
+    second: {fileID: 2800000, guid: eb7e0d7aaa8d33f4399e1c75e723b7f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_podkladki_na_nogah_Diffuse
+    second: {fileID: 2800000, guid: 11043a68b14d06348999f873e8435f28, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_podkladki_na_nogah_Height
+    second: {fileID: 2800000, guid: 35171afc97837834f8decf457ee2c9e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_podkladki_na_nogah_Normal
+    second: {fileID: 2800000, guid: 70970fbfe0995334f8116bea5e02a58c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_podkladki_na_nogah_Specular
+    second: {fileID: 2800000, guid: c4a1bd19bd8d54e40802b7f735673fa5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_propelleri_Diffuse
+    second: {fileID: 2800000, guid: cbf8cb9a24ae1b742853462fb9152f33, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_propelleri_Height
+    second: {fileID: 2800000, guid: 1233bbbb424efa64d9fb1950ac310d0a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_propelleri_Normal
+    second: {fileID: 2800000, guid: 2e9a80430d119fd4893783f770d0af37, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_propelleri_Specular
+    second: {fileID: 2800000, guid: dedf8b833236b7c4aa392e57462c3f49, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_provoda_v_nogah_Diffuse
+    second: {fileID: 2800000, guid: 617e3d2757d8c264c96b473f37f36f3f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_provoda_v_nogah_Height
+    second: {fileID: 2800000, guid: 83ee3c3a1d42c2247bee0b95c3e77b27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_provoda_v_nogah_Normal
+    second: {fileID: 2800000, guid: 4146956bcd7e5dc4a89ef756439baca9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_provoda_v_nogah_Specular
+    second: {fileID: 2800000, guid: a7387d2445141ce4cb3ed789d07f3938, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_provoda_v_radiatore_Diffuse
+    second: {fileID: 2800000, guid: ed9161ad1cfd15046a051732650b5f75, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_provoda_v_radiatore_Height
+    second: {fileID: 2800000, guid: d55372f926bc9a94ca89a0802b4efde1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_provoda_v_radiatore_Normal
+    second: {fileID: 2800000, guid: b4caf19d2c6937040885bf7f8bd26d96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_provoda_v_radiatore_Specular
+    second: {fileID: 2800000, guid: 0b4b2f2d3038ae749a4e8ffe164a9c4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_stolbiki_Diffuse
+    second: {fileID: 2800000, guid: 01482b4c4db614b488bd99982e43c7ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_stolbiki_Height
+    second: {fileID: 2800000, guid: ff09a7341151f9f43b0bb8f6ddfe6566, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_stolbiki_Normal
+    second: {fileID: 2800000, guid: db2a7958ccbcc204b967ad85bc74d6f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_stolbiki_Specular
+    second: {fileID: 2800000, guid: b144c5bf9e5d4724d9945d44daebc5c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_verhniy_korpus_motora_Diffuse
+    second: {fileID: 2800000, guid: 93bea5dcfa416d44f994d1fda0d7ab86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_verhniy_korpus_motora_Height
+    second: {fileID: 2800000, guid: 2caf2f1cabfa77649a42bcacb72ab9d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_verhniy_korpus_motora_Normal
+    second: {fileID: 2800000, guid: 94f33f360fdb1a74aaef5722538b847e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_verhniy_korpus_motora_Specular
+    second: {fileID: 2800000, guid: 60c7d66b34ce1e040a39dccb40c57242, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_vintiki_Diffuse
+    second: {fileID: 2800000, guid: 0b62cf3c29e61b9439b549034f379dc5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_vintiki_Height
+    second: {fileID: 2800000, guid: 9662956bf14b477419dcb4b489d9a2eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_vintiki_Normal
+    second: {fileID: 2800000, guid: dc85bd0892e42af4da8104a15da04929, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_vintiki_Specular
+    second: {fileID: 2800000, guid: 43d22124dcdb1a44e9d60c6806931fa7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_vtulka_motora_Diffuse
+    second: {fileID: 2800000, guid: 042335cfb978ef042acb19be2a1d6d48, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_vtulka_motora_Height
+    second: {fileID: 2800000, guid: d224318e43f753948b67d29ce885e976, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_vtulka_motora_Normal
+    second: {fileID: 2800000, guid: dc2fec2c22977d745887464f6dd39023, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_vtulka_motora_Specular
+    second: {fileID: 2800000, guid: 43f9f56f2e4034b4e9c4e92878fa4a6a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_zatichka_propellera_Diffuse
+    second: {fileID: 2800000, guid: dffa37587462ad74fbf75545ba6fd113, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_zatichka_propellera_Height
+    second: {fileID: 2800000, guid: 7a47c11239faaa1499a6dc2732e0d37e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_zatichka_propellera_Normal
+    second: {fileID: 2800000, guid: 8289717c1fa931448a05544fe368aeb1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_zatichka_propellera_Specular
+    second: {fileID: 2800000, guid: c08a3d5b5a863604995aec945d1a88d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_zatichki_na_stolbikah_Diffuse
+    second: {fileID: 2800000, guid: 40a9a52d6cb333e4da355e23bf5b1d0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_zatichki_na_stolbikah_Height
+    second: {fileID: 2800000, guid: daf85182c3d7bf34aa96d1f0ae9a81d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_zatichki_na_stolbikah_Normal
+    second: {fileID: 2800000, guid: bd72b34f4eefc074b9311c60b49abe27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_uv_zatichki_na_stolbikah_Specular
+    second: {fileID: 2800000, guid: 0dc466bd21fe2ef4e8a53e9c2f34f45e, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
