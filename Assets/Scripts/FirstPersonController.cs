@@ -5,7 +5,7 @@ using UnityEngine;
 public class FirstPersonController : MonoBehaviour{
     //Player Movement
     public float velocidadMovimiento = 3f;
-
+    public GameObject mira;
 
 
     //Player Look Rotation
@@ -26,11 +26,12 @@ public class FirstPersonController : MonoBehaviour{
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         rb.isKinematic = true;
-
+        mira.SetActive(false);
     }
 
    
     void Update(){
+        LookingUsableObjects();
       Move();  
       MouseLook();
       Temporizador();
@@ -76,5 +77,17 @@ public class FirstPersonController : MonoBehaviour{
                 
             }
     }
-    
+    void LookingUsableObjects(){
+        RaycastHit ray;
+        if(Physics.Raycast(cam.position, cam.forward, out ray, 2)){
+            Debug.Log(ray.transform.tag);
+        if (ray.transform.tag == "Usable"){
+                mira.SetActive(true);
+            }else{
+                mira.SetActive(false);
+            }
+            
+            }
+        }
     }
+    

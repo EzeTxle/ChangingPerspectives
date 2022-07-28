@@ -8,7 +8,7 @@ public class ButtonScript : MonoBehaviour
     public AudioSource audio3;
     public bool disabled = false;
     public float tiempoDeHabla = 19f;
-    public float tiempoDeBoton = 1.5f;
+    public float tiempoDeBoton = 1.45f;
     public float tiempoDeFinal = 5f;
     public bool buttonPressed = false;
     public Animator animBoton;
@@ -16,6 +16,7 @@ public class ButtonScript : MonoBehaviour
     public Transform fpsCamera;
     public GameObject mainCam;
     public GameObject playerCam;
+    public GameObject cylinder;
     public GameObject fpsPlayer;
     public Transform capsule;
     public GameObject perspectivePlayer;
@@ -33,7 +34,7 @@ public class ButtonScript : MonoBehaviour
     void Update(){
         Temporizador();
         TouchingButton();
-        if(Input.GetKeyDown("space") && !changed && disabled){
+        if(Input.GetKeyDown("space") && !changed && tiempoDeHabla < 0){
             mainCam.SetActive(true);
             playerCam.SetActive(false);
             perspectivePlayer.SetActive(true);
@@ -48,9 +49,10 @@ public class ButtonScript : MonoBehaviour
 
     void TouchingButton(){
         RaycastHit ray;
-        if(Physics.Raycast(fpsCamera.transform.position, fpsCamera.transform.forward, out ray, 5)){
+        if(Physics.Raycast(fpsCamera.transform.position, fpsCamera.transform.forward, out ray, 20)){
         if (Input.GetMouseButton(0) && ray.transform.name == "Cylinder" && !disabled && !buttonPressed){
             animBoton.SetBool("buttonPressed", true);
+            cylinder.tag = "Used";
             buttonPressed = true;
             audio2.Play();
             }}
@@ -60,7 +62,7 @@ public class ButtonScript : MonoBehaviour
         if(tiempoDeHabla > 0 && buttonPressed == true && !disabled ){
             tiempoDeHabla -= Time.deltaTime;
             tiempoDeBoton -= Time.deltaTime;
-        } else if (buttonPressed && !disabled){
+        } else if (tiempoDeHabla <0 && !disabled){
             disabled = true;            
         }
         
